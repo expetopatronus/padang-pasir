@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background: #363636;
+}
+
+:root{
+	--bayangan: rgba(255,0,0,0.5);
+	--tanah1: #c22a28;
+	--tanah2: #D93D2E;
+	--tanah3: #f63330;
+}
+
+#canvas {
+	height: 60vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5vmin;
+	overflow: hidden;
+	box-shadow: 0 0 3vmin var(--bayangan);
+	background: #FF8275;
+}
+
+#tanah {
+  width: 100%;
+	height: 12vmin;
+	background: var(--tanah1);
+	bottom: 0;
+}
+
+#kaktus {
+	height: 17vmin;
+	width: 4vmin;
+	background: var(--tanah1);
+  border-radius: 2vmin;
+	bottom: 10vmin;
+	left: 9vmin;
+}
+
+.rantingKaktus {
+	height: 7vmin;
+	width: 3vmin;
+	background: var(--tanah1);
+	border-radius: 1.5vmin;
+}
+
+#rk1 {
+	bottom: 14vmin;
+	transform: rotate(90deg);
+	left: 6vmin;
+}
+
+#rk2 {
+	bottom: 16vmin;
+	left: 4vmin;
+}
+
+#rk3 {
+	bottom: 12vmin;
+	transform: rotate(90deg);
+	left: 13vmin;
+}
+
+#rk4 {
+	bottom: 14vmin;
+	height: 8vmin;
+	left: 15vmin;
+}
+
+.batu {
+	background: var(--tanah1);
+	height: 4vmin;
+	width: 5vmin;
+	border-radius: 50%;
+	bottom: 11.5vmin;
+	left: 21vmin;
+}
+
+#b2 {
+	height: 3vmin;
+	width: 3vmin;
+	left: 27vmin;
+	bottom: 11vmin;
+}
+
+#tanah2, #tanah3 {
+	width: 100%;
+	height: 20vmin;
+	background: var(--tanah2);
+	bottom: 2vmin;
+}
+
+#tanah3 {
+	bottom: 12vmin;
+	background: var(--tanah3);
+}
+
+.gedung {
+	height: 12vmin;
+	width: 4vmin;
+	background: var(--tanah3);
+	bottom: 32vmin;
+}
+
+#g2 {
+	height: 9vmin;
+	width: 2vmin;
+	left: 4vmin;
+}
+
+#g3 {
+	height: 11vmin;
+	width: 4vmin;
+	left: 7vmin;
+}
+
+#g4 {
+	height: 3vmin;
+	width: 6vmin;
+	left: 10vmin;
+}
+
+#g5 {
+	height: 14vmin;
+	width: 3vmin;
+	left: 15vmin;
+}
+
+#g6 {
+	height: 7vmin;
+	width: 5vmin;
+	left: 20vmin;
+}
+
+#g7 {
+	height: 12vmin;
+	left: 24vmin;
+}
+
+#g8 {
+	height: 10vmin;
+	left: 26vmin;
+}
+
+#g9 {
+	height: 7vmin;
+	width: 2vmin;
+	left: 31vmin;
+}
+
+#g10 {
+	height: 4vmin;
+	left: 34vmin;
+}
+
+#g11 {
+	height: 8vmin;
+	left: 38vmin;
+}
+
+#matahari {
+	height: 10vmin;
+	width: 10vmin;
+	background: #fff;
+	border-radius: 50%;
+	right: 8vmin;
+	top: 5vmin;
+}
+
+.awan {
+	height: 2vmin;
+	width: 12vmin;
+	background: #FFBBB3;
+	border-radius: 1vmin;
+	top: 6vmin;
+	right: 14vmin
+}
+
+#a2 {
+	right: 1vmin;
+	top: 10vmin;
+}
